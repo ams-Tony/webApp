@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web');
+
+.img_slide{
+  padding: 36px 15px 54px 15px;
+  
+  font-size: 36px;
+  font-family: 'Titillium Web';
+}
+.header__back{
+  position: fixed;
+  z-index: 1;
+  top: 40px;
+}
+.header__title{
+  position: fixed;
+  z-index: 1;
+  font-family: 'Titillium Web';
+  color: #FFFFFF;
+  font-size: 45px;
+  left: 90px;
+  top: 30px;
+}
+.header{
+  z-index: 1;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 150px;
+  width: 100%;
+}
+.container{
+  z-index: -1;
+  display: grid;
+  height: 100%;
+  top: 0;
+  position: absolute;
+  grid-template-columns: auto auto auto;
+  padding: 150px 15px 15px 15px;
+}
